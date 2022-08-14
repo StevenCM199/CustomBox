@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body{
+  background: url(./media/dubai.jpg);
+  font-family: 'Silkscreen';
+  color: white; 
+}
+
+
+.container{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: auto; 
+  padding: 40px; 
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 1);
+  margin: auto; 
+  border: 1px solid black;
+  
+}
+
+.box-config{
+  width: 350px;
+  display: grid;
+  gap: 15px; 
+  padding: 20px;
+  background-color: rgba(60, 60, 60, 0.2);
+  border-radius: 2px;
+}
+
+.slider-element{
+  display: grid;
+  grid-template-rows: 2;
+}
+

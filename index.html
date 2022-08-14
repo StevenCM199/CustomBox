@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src= './script.js'></script>
+  <title>CustomBox</title>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+
+    </div>
+
+    <div class="box-config">
+      <div class="slider-element">
+        <label for="color">Color</label>
+        <input type="color" id="color" value="#FFFFFF">
+      </div>
+      
+      <div class="slider-element">
+        <label for="size">Size</label>
+        <input type="range" id="size" min="1" max="500" data-unit="px" value="50">
+      </div>
+
+      
+      <div class="slider-element">
+        <label for="opacity">Opacity</label>
+        <input type="range" id="opacity" value='100' data-unit="%">
+      </div>
+      
+      <div class="slider-element">
+        <label for="blur">Blur</label>
+        <input type="range" id="blur" value="0" min="0" max="200" data-unit="px">
+      </div>
+
+      <div class="slider-element">
+        <label for="contrast">Contrast</label>
+        <input type="range" id="contrast" value="100" data-unit="%">
+      </div>
+
+      <div class="slider-element">
+        <label for="brightness">Brightness</label>
+        <input type="range" id="brightness" value="100" data-unit="%">
+      </div>
+
+      <div class="slider-element">
+        <label for="saturation">Saturation</label>
+        <input type="range" id="saturation" value="0" data-unit="%">
+      </div>
+
+      <div class="slider-element">
+        <label for="invert">Invert</label>
+        <input type="range" id="invert" value="0" data-unit="%">
+      </div>
+      
+      <div class="slider-element">
+        <label for="border-radius">Border radius</label>
+        <input type="range" id="border-radius" min="0" max="100" data-unit="px" value="5">
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
